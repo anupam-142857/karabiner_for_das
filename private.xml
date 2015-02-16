@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<root>
+	<item>
+		<name>Volume Controls to F9,F10,F11</name>
+			<item>
+				<appendix>F9 = Mute</appendix>
+				<identifier>Personal_Volume_Mute</identifier>
+				<autogen>__KeyToKey__ KeyCode::F9, ConsumerKeyCode::VOLUME_MUTE</autogen>
+			</item>
+			<item> 
+				<appendix>F10 = Volume Down</appendix>
+				<identifier>Personal_Volume_Down</identifier>
+				<autogen>__KeyToKey__ KeyCode::F10, ConsumerKeyCode::VOLUME_DOWN</autogen>
+			</item>
+			<item>
+				<appendix>F11 = Volume Up</appendix>
+				<identifier>Personal_Volume_Up</identifier>
+				<autogen>__KeyToKey__ KeyCode::F11, ConsumerKeyCode::VOLUME_UP</autogen>
+			</item>
+	</item>
+
+	<item>
+		<name>Music Controls to F6,F7,F8</name>
+		<item>
+				<appendix>F6 = Previous</appendix>
+				<identifier>Personal_Previous</identifier>
+				<autogen>__KeyToKey__ KeyCode::F6, ConsumerKeyCode::MUSIC_PREV</autogen>
+		</item>
+		<item>
+				<appendix>F7 = Play</appendix>
+				<identifier>Personal_Play</identifier>
+				<autogen>__KeyToKey__ KeyCode::F7, ConsumerKeyCode::MUSIC_PLAY</autogen>
+		</item>
+		<item>
+				<appendix>F8 = Next</appendix>
+				<identifier>Personal_Next</identifier>
+				<autogen>__KeyToKey__ KeyCode::F8, ConsumerKeyCode::MUSIC_NEXT</autogen>
+		</item>
+	</item>
+</root>
